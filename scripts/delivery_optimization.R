@@ -1,23 +1,12 @@
-# ------------------------------------------------------------
+
 # Assignment: Last Mile Delivery Planning during IPL Season
 # Module: Data Driven Decision Making (D3M)
 #
-# Code authorship statement:
-# Core coding, integration, testing, and final validation were
-# completed by the student.
-#
-# Lecture methods adapted:
+# Methods adapted:
 # - Local Search (LS)
 # - Genetic Algorithm (GA package)
-#
-# Generative AI disclosure:
-# ChatGPT was used as a support tool for code structuring,
-# debugging guidance, and explanatory comments.
-# Final code was reviewed and tested by the student.
-# ------------------------------------------------------------
 
-
-# Author-written
+# Author written
 # Purpose: Read dataset file and extract orders, capacity,
 # profits, weights, depot, and customer coordinates.
 read_dataset <- function(file_path) {
@@ -330,9 +319,9 @@ run_pipeline <- function(file_path, dataset_name) {
 }
 
 # Main execution: run all datasets and combine results
-result_small <- run_pipeline("40527216_small.csv", "Small")
-result_medium <- run_pipeline("40527216_medium.csv", "Medium")
-result_large <- run_pipeline("40527216_large.csv", "Large")
+result_small <- run_pipeline("data/delivery_optimisation/small.csv", "Small")
+result_medium <- run_pipeline("data/delivery_optimisation/medium.csv", "Medium")
+result_large <- run_pipeline("data/delivery_optimisation/large.csv", "Large")
 
 final_results <- rbind(result_small, result_medium, result_large)
 final_results$Cost <- round(final_results$Cost, 2)
