@@ -60,6 +60,24 @@ Develops a structured vendor selection model:
 - **Efficiency Analysis:** Data Envelopment Analysis (DEA)
 - **Data Management:** CSV datasets
 
+## Requirements
+
+The project uses R and the following packages:
+
+```r
+install.packages(c(
+  "GA",
+  "AHPtools",
+  "Benchmarking",
+  "ompr",
+  "ompr.roi",
+  "ROI.plugin.glpk",
+  "dplyr"
+))
+```
+
+Load the packages required by the respective scripts before execution.
+
 ## Reproducibility
 
 The datasets, R scripts, and generated outputs are organised into separate directories. Refer to the individual scripts for implementation details and execution requirements.
