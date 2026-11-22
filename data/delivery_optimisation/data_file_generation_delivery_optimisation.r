@@ -1,6 +1,5 @@
-# Replace 123 with last 3 digits of the group representative student ID
 
-seed_value <- 123
+seed_value <- 216
 
 generate_dataset <- function(n, seed = seed_value, filename = "data.csv") {
   
