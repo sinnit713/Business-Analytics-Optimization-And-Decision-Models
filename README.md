@@ -1,9 +1,6 @@
-# Business-Analytics-Optimization-And-Decision-Models
-My MSc Business Analytics coursework covering last mile delivery optimisation, hospital performance evaluation using AHP and DEA, and strategic vendor selection using Goal Programming.
-
 # Business Analytics: Optimisation and Decision Models
 
-A collection of analytical and optimisation models developed as part of MSc Business Analytics coursework at Queen’s University Belfast.
+My MSc Business Analytics coursework covering last mile delivery optimisation, hospital performance evaluation using AHP and DEA, and strategic vendor selection using Goal Programming.
 
 ## Project Overview
 
