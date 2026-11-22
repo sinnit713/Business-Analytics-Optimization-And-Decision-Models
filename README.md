@@ -1,5 +1,4 @@
 # Business Analytics: Optimisation and Decision Models
-
 My MSc Business Analytics coursework covering last mile delivery optimisation, hospital performance evaluation using AHP and DEA, and strategic vendor selection using Goal Programming.
 
 ## Project Overview
@@ -35,8 +34,17 @@ Develops a structured vendor selection model:
 ```text
 ├── data/
 │   ├── delivery_optimisation/
+│   │   ├── data_file_generation_delivery_optimisation.R
+│   │   ├── small.csv
+│   │   ├── medium.csv
+│   │   └── large.csv
+│   │
 │   ├── hospital_performance/
+│   │   └── hospital_performance.csv
+│   │
 │   └── vendor_selection/
+│       ├── vendor_performance.csv
+│       └── vendor_operational_contribution.csv
 │
 ├── scripts/
 │   ├── delivery_optimisation.R
@@ -59,7 +67,8 @@ Develops a structured vendor selection model:
 
 ## Requirements
 
-The project uses R and the following packages:
+- [R Programming Language](https://www.r-project.org/)
+- Required R packages:
 
 ```r
 install.packages(c(
@@ -77,7 +86,9 @@ Load the packages required by the respective scripts before execution.
 
 ## Reproducibility
 
-The datasets, R scripts, and generated outputs are organised into separate directories. Refer to the individual scripts for implementation details and execution requirements.
+The repository separates datasets, R scripts, and results to support clear project organisation and reproducibility.
+
+The delivery optimisation folder also includes the R script used to generate the small, medium, and large datasets. Refer to the individual scripts for implementation details and execution requirements.
 
 ## Academic Context
 
